@@ -1,7 +1,7 @@
 export default function Badge() {
   return (
     <>
-      <div className="badge flex flex-col items-center mt-20">
+      <div className="badge flex flex-col items-center mt-20 pb-7">
         <div className="relative">
           <img src="./src/img/Group 3179.svg" alt="rectangle" />
           <div className="badge__content absolute top-0 translate-x-2 translate-y-4 text-center">
