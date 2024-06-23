@@ -1,4 +1,5 @@
 import Badge from "./components/Badge";
+import FrameLessColumn from "./components/FrameLessColumn";
 import Navigator from "./components/Navigator";
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
             <Navigator />
             <Badge />
           </div>
+
           {/* Middle Column */}
-          <div className="bg-green-500 line">column-2</div>
+          <FrameLessColumn />
+
           {/* Right Column */}
           <div className="bg-blue-500 recipe">column-3</div>
         </div>
