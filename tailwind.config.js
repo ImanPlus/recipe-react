@@ -6,9 +6,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        sans: ["Katibeh", ...defaultTheme.fontFamily.sans],
         serif: ["Jacques Francois Shadow", ...defaultTheme.fontFamily.serif],
-        Katibeh: ["Katibeh", ...defaultTheme.fontFamily.sans],
+        Inter: ["Inter", ...defaultTheme.fontFamily.sans],
       },
     },
   },
