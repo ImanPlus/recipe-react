@@ -2,6 +2,7 @@ import Badge from "./components/Badge";
 import Banner from "./components/Banner";
 import FrameLessColumn from "./components/FrameLessColumn";
 import Navigator from "./components/Navigator";
+import Recipe from "./components/Recipe";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
           <FrameLessColumn />
 
           {/* Right Column */}
-          <div className="bg-blue-500 recipe grid grid-rows-2 row-span-2 gap-7">
+          <div className="container grid grid-rows-2 row-span-2 gap-3">
             <Banner />
-            <div className="bg-red-400">row - 2</div>
+            <Recipe />
           </div>
         </div>
       </main>
