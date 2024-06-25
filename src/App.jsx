@@ -1,4 +1,5 @@
 import Badge from "./components/Badge";
+import Banner from "./components/Banner";
 import FrameLessColumn from "./components/FrameLessColumn";
 import Navigator from "./components/Navigator";
 
@@ -18,9 +19,9 @@ function App() {
           <FrameLessColumn />
 
           {/* Right Column */}
-          <div className="bg-blue-500 recipe grid row-span-2">
-            <div className="bg-gray-500">row-1</div>
-            <div className="bg-green-950">row-2</div>
+          <div className="bg-blue-500 recipe grid grid-rows-2 row-span-2 gap-7">
+            <Banner />
+            <div className="bg-red-400">row - 2</div>
           </div>
         </div>
       </main>
