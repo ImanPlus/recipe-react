@@ -1,3 +1,8 @@
+import clock from "../img/clock.svg";
+import dish from "../img/dish.svg";
+import sezarSalad from "../img/sezar-salad.svg";
+import greekSalad from "../img/greek-salad.svg";
+
 export default function Recipe() {
   return (
     <div className="grid grid-cols-2 gap-5 max-h-80">
@@ -8,7 +13,7 @@ export default function Recipe() {
           </h1>
           <div className="flex flex-col font-Inter text-sm">
             <div className="inline-flex gap-1">
-              <img src="src/img/clock.svg" alt="clock" />
+              <img src={clock} alt="clock" />
               <p>15 Minutes</p>
             </div>
             <p>Serves: 2 people</p>
@@ -19,7 +24,7 @@ export default function Recipe() {
               tomato, crisp bacon, hard-boiled eggs, avocado, chives, blue
               cheese, and red-wine vinaigrette
             </p>
-            <img className="h-52" src="src/img/dish.svg" alt="dish" />
+            <img className="h-52" src={dish} alt="dish" />
           </div>
           <p className="font-Inter text-xs">Recipe By Alisha D’souza</p>
         </div>
@@ -30,7 +35,7 @@ export default function Recipe() {
             <div className="flex flex-col pl-24 gap-1">
               <h1 className="font-sans text-3xl">Caesar Salad</h1>
               <div className="inline-flex font-Inter text-xs">
-                <img className="w-4 h-4" src="src/img/clock.svg" alt="clock" />
+                <img className="w-4 h-4" src={clock} alt="clock" />
                 <p className="ml-1">30 Minutes | Serves: 2 people</p>
               </div>
               <p className="font-Inter text-sm mt-1">
@@ -40,7 +45,7 @@ export default function Recipe() {
               </p>
             </div>
             <div className="absolute left-0 top-0">
-              <img src="src/img/sezar-salad.svg" alt="sezar-salad" />
+              <img src={sezarSalad} alt="sezar-salad" />
             </div>
           </div>
         </div>
@@ -49,7 +54,7 @@ export default function Recipe() {
             <div className="flex flex-col pl-24 gap-1">
               <h1 className="font-sans text-3xl">Greek Salad</h1>
               <div className="inline-flex font-Inter text-xs">
-                <img className="w-4 h-4" src="src/img/clock.svg" alt="clock" />
+                <img className="w-4 h-4" src={clock} alt="clock" />
                 <p className="ml-1">30 Minutes | Serves: 2 people</p>
               </div>
               <p className="font-Inter text-sm mt-1">
@@ -58,7 +63,7 @@ export default function Recipe() {
               </p>
             </div>
             <div className="absolute left-0 top-0">
-              <img src="src/img/greek-salad.svg" alt="greek-salad" />
+              <img src={greekSalad} alt="greek-salad" />
             </div>
           </div>
         </div>

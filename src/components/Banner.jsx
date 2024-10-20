@@ -1,3 +1,5 @@
+import maleChef from "../img/male-chef.svg";
+
 export default function Banner() {
   return (
     <div className="rounded-[30px] bg-[url('./src/img/combined.svg')] object-cover bg-green-200">
@@ -9,7 +11,7 @@ export default function Banner() {
           </h2>
         </div>
         <div className="absolute bottom-0 right-0 translate-x-20">
-          <img src="src/img/male-chef.svg" alt="chef" />
+          <img src={maleChef} alt="chef" />
         </div>
       </div>
     </div>
